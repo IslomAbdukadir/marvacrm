@@ -1,0 +1,30 @@
+/* Gotham */
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/GothamPro/GothamPro.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/GothamPro/GothamPro-Bold.ttf);
+    font-weight: 700;
+}
+
+/* Gotham */
+
+/* Montserrat */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+/* Montserrat */

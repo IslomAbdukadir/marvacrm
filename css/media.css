@@ -1,0 +1,368 @@
+@media (max-width: 1600px) {
+    .log {
+      padding-top: 20px;
+    }
+  
+    .log-link {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 25px;
+    }
+  
+    .log-link img {
+      width: 50%;
+      height: 50%;
+    }
+  
+    .log-link::after {
+      bottom: -15px;
+    }
+  
+    .log-info {
+      margin-bottom: 30px;
+    }
+  
+    .log-img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .log-img img {
+      width: 50%;
+    }
+  
+    .log-span {
+      font-size: 22px;
+    }
+  
+    .nav .container {
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+    }
+  
+    .task-swipe {
+      gap: 25px;
+    }
+  
+    .task-day,
+    .director-title,
+    .deal-card-name {
+      font-size: 18px;
+    }
+  
+    .task-day2,
+    .center-list-block {
+      font-size: 14px;
+    }
+  
+    .deal-card-link,
+    .deal-card-content-txt,
+    .deal-sort-txt {
+      font-size: 12px;
+    }
+  
+    .director-card,
+    .deal-card {
+      width: 285px;
+    }
+  
+    .deal-card-item {
+      width: 85px;
+    }
+  
+    .deal2 .director-card,
+    .deal-sort {
+      width: 390px;
+    }
+  
+    .director-item,
+    .center-list-block {
+      width: 190px;
+    }
+  
+    .contact-cards .director-card,
+    .contact-lists .center-list-block {
+      width: 230px;
+    }
+  
+    .center-list-block {
+      gap: 40px;
+    }
+  
+    .chat-left {
+      width: 285px;
+    }
+  
+    .chat-right {
+      width: 895px;
+    }
+  
+    .chat_input {
+      width: 755px;
+    }
+  }
+  
+  @media (max-width: 1440px) {
+    .chat-left {
+      width: 250px;
+    }
+  
+    .director-card,
+    .deal-card {
+      width: 250px;
+    }
+  
+    .chat-right {
+      width: 780px;
+    }
+  
+    .chat_input {
+      width: 640px;
+    }
+  
+    .chat-user-img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .director-item,
+    .center-list-block {
+      font-size: 14px;
+      width: 170px;
+    }
+  
+    .center-list-block:nth-of-type(1) {
+      gap: 10px;
+    }
+  
+    .contact-cards .director-card,
+    .contact-lists .center-list-block {
+      width: 200px;
+    }
+  
+    .contact-lists .center-list-block:nth-of-type(1) {
+      gap: 40px;
+    }
+  
+    .nav-right-btn,
+    .nav-left-btn,
+    .task-day,
+    .director-title,
+    .deal-card-name,
+    .deal-sort-line p {
+      font-size: 16px;
+    }
+  
+    .deal-info-txt {
+      font-size: 30px;
+    }
+  
+    .deal-info-stat {
+      gap: 60px;
+    }
+  
+    .deal-card-item {
+      width: 75px;
+    }
+  
+    .deal-card-link,
+    .deal-card-content-txt,
+    .deal-sort-txt {
+      font-size: 11px;
+    }
+  
+    .deal2 .director-card,
+    .deal-sort {
+      width: 340px;
+    }
+  
+    .deal-sort-num {
+      font-size: 20px;
+      width: 245px;
+      height: 33px;
+    }
+  
+    .task-link {
+      font-size: 14px;
+      padding: 4px;
+    }
+  
+    .task-box .deal-sort-txt {
+      font-size: 18px;
+    }
+  
+    .stroke-line-left img {
+      display: none;
+    }
+  
+    .task-line-time {
+      font-size: 16px;
+    }
+  
+    .stroke-line-name {
+      padding: 2px;
+      font-size: 11px;
+    }
+  
+    .log-link {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 20px;
+    }
+  
+    .log-link img {
+      width: 50%;
+      height: 50%;
+    }
+  
+    .log-link::after {
+      bottom: -15px;
+    }
+  
+    .log-info {
+      margin-bottom: 25px;
+    }
+  
+    .log-img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .log-img img {
+      width: 50%;
+    }
+  
+    .log-span {
+      font-size: 18px;
+    }
+  
+    .task-day2,
+    .center-list-block {
+      font-size: 12px;
+    }
+  
+    .task-link {
+      font-size: 13px;
+      padding: 3px;
+    }
+  
+    .task-box .deal-sort-txt {
+      font-size: 16px;
+    }
+  
+    .task_btn,
+    .task_input,
+    .chat_btn {
+      height: 50px;
+    }
+  
+    .contact-cards .director-card,
+    .contact-lists .center-list-block {
+      width: 190px;
+    }
+  
+    .director-card,
+    .deal-card,
+    .chat-left {
+      width: 235px;
+    }
+  
+    .chat-right {
+      width: 720px;
+    }
+  
+    .chat_form {
+      left: 25px;
+      bottom: 25px;
+    }
+  
+    .chat_input {
+      width: 600px;
+      height: 50px;
+    }
+  
+    .chat-left {
+      padding: 12px;
+    }
+  
+    .executor-input {
+      height: 45px;
+      width: 700px;
+    }
+  
+    .executor-img {
+      margin-bottom: 25px;
+    }
+  
+    .executor-form2 {
+      margin-bottom: 0;
+    }
+  
+    .executor-info-btn {
+      width: 150px;
+      height: 30px;
+      font-size: 14px;
+    }
+  
+    .executor-input::-webkit-input-placeholder {
+      font-size: 14px;
+    }
+  
+    .executor-input::-moz-placeholder {
+      font-size: 14px;
+    }
+  
+    .executor-input:-ms-input-placeholder {
+      font-size: 14px;
+    }
+  
+    .executor-input::-ms-input-placeholder {
+      font-size: 14px;
+    }
+  
+    .executor-input::placeholder {
+      font-size: 14px;
+    }
+  
+    .director-form input,
+    .director-info-right .dropdown-select {
+      width: 550px;
+      height: 50px;
+      padding-left: 15px;
+      font-size: 14px;
+    }
+  
+    .arrow-down2 {
+      top: 41%;
+    }
+  
+    .director-form,
+    .director-info {
+      gap: 20px;
+      -webkit-box-pack: unset;
+          -ms-flex-pack: unset;
+              justify-content: unset;
+    }
+  
+    .director-img {
+      width: 170px;
+      height: 170px;
+      margin-bottom: 20px;
+    }
+  
+    .crm-photo {
+      max-width: 1300px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .director-item,
+    .center-list-block {
+      font-size: 13px;
+      width: 153px;
+    }
+  
+    .block1 {
+      gap: 3px;
+    }
+  }

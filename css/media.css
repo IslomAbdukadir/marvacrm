@@ -365,4 +365,8 @@
     .block1 {
       gap: 3px;
     }
+
+    .deal-sort-dots {
+      cursor: pointer;
+    }
   }

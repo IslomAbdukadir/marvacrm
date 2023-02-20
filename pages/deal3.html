@@ -8,6 +8,7 @@
     <title>MARVA Dental - международная академия по
         обучению зубных техников</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../libs/micromodal/micromodal.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/media.css">
 
@@ -97,7 +98,7 @@
                                 <p class="deal-sort-name">Оплата: 22.02.12</p>
                             </div>
                         </div>
-                        <a href="#!" class="deal-sort-dots">
+                        <a href="#!" class="deal-sort-dots" data-custom-open="modal">
                             <img src="../img/dotsDark.svg" alt="">
                         </a>
                     </div>
@@ -105,39 +106,40 @@
                         <p>Описание:</p>
                     </div>
                     <p class="deal-sort-txt">
-                        Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация, Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация,Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация,
-                    </p>
-                </div>
-                <div class="deal-swipe-card">
-                    <div>
-                        <div class="deal-swipe-info">
-                            <div>
-                                <p class="deal-sort-num">+998 90 000 00 00</p>
-                                <p class="deal-sort-name">Kuchkarov kuchkar</p>
-                            </div>
-                            <div>
-                                <p class="deal-sort-num">17 400 000 s’om</p>
-                                <p class="deal-sort-name">Оплата: 22.02.12</p>
-                            </div>
-                        </div>
-                        <a href="#!" class="deal-sort-dots">
-                            <img src="../img/dotsDark.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="deal-sort-line">
-                        <p>Описание:</p>
-                    </div>
-                    <p class="deal-sort-txt">
-                        Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация, Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация,Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения, разрешения; в науке - противоречивая ситуация,
+                        Проблема в широком смысле - сложный теоретический или практический вопрос, требующий изучения,
+                        разрешения; в науке - противоречивая ситуация, Проблема в широком смысле - сложный теоретический
+                        или практический вопрос, требующий изучения, разрешения; в науке - противоречивая
+                        ситуация,Проблема в широком смысле - сложный теоретический или практический вопрос, требующий
+                        изучения, разрешения; в науке - противоречивая ситуация,
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="modal micromodal-slide" id="modal">
+        <div class="modal__overlay" data-custom-close>
+            <div class="modal__container">
+                <header class="modal__header">
+                    <h2 class="modal__title">Изменение</h2>
+                    <button class="modal__close" title="Закрыть" data-custom-close></button>
+                </header>
+                <form class="deal-form">
+                    <input type="text" placeholder="Имя Фамилия">
+                    <input type="text" placeholder="Номер телефона">
+                    <input type="text" placeholder="Сумма сделки">
+                    <input type="text" placeholder="Дата сделки">
+                    <input type="text" placeholder="Комментарии">
+                    <button>Сохранить изменение</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/imask"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../libs/micromodal/micromodal.min.js"></script>
+    <script src="../js/modal.js"></script>
     <script src="../js/script.js"></script>
 
 

@@ -105,7 +105,7 @@ function create_custom_dropdowns() {
     create_custom_dropdowns();
   });
 
-//   
+//  
 
 const element = document.querySelector(".input-phone-number");
 const element2 = document.querySelector(".js-input-phone-number");
@@ -117,3 +117,5 @@ var maskOptions = {
 
 var mask = new IMask(element, maskOptions);
 var mask = new IMask(element2, maskOptions);
+
+// 

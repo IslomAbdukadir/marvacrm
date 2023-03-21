@@ -2027,3 +2027,16 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: 12px;
   font-size: 20px;
 }
+
+.deal-modal-card {
+  width: 400px;
+  background: #b8b7b775;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.deal-modal-cards {
+  display: flex;
+  gap: 30px;
+  flex-flow: wrap;
+}
